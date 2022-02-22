@@ -20,7 +20,7 @@ body{
     
 }
 .restaurant-name{
-    font-size: 70px;
+    font-size: 90px;
     font-family: 'Tangerine', cursive, 'Times New Roman', Times, serif;
     margin-top: 1.5rem;
 }
@@ -74,4 +74,49 @@ body{
     border-radius: 50%;
     margin-top: 4rem;
     
+}
+.footer{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100vw;
+    height: 7vh;
+    font-size: 25px;
+    font-weight: bold;
+}
+.github-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.contact-content{
+    width: 40vw;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+.telephone, .address{
+    display: flex;
+    gap: 15px;
+    margin-left: 40px;
+}
+.contact-content{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.address-image{
+    
+    height: 40vh;
+    margin: 40px;
+    margin-top: 20px;
+
 }
