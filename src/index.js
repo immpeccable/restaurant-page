@@ -14,6 +14,7 @@ if(first == 1){
 let home = document.getElementById('home');
 let menu = document.getElementById('menu');
 let contact = document.getElementById('contact');
+let content = document.getElementById('content');
 let flag = 0;
 
 home.addEventListener('click' , () => {
@@ -24,8 +25,8 @@ home.addEventListener('click' , () => {
         console.log("home");
         let intro = document.getElementById('contentPage');
         let footer = document.getElementById('footer');
-        content.removeChild(footer);
         content.removeChild(intro);
+        content.removeChild(footer);
         
     
         menu.classList.remove('activee');
@@ -44,8 +45,8 @@ menu.addEventListener('click' , () => {
         flag = 1;
         let intro = document.getElementById('contentPage');
         let footer = document.getElementById('footer');
-        content.removeChild(footer);
         content.removeChild(intro);
+        content.removeChild(footer);
         home.classList.remove('activee');
         contact.classList.remove('activee');
         menu.classList.add('activee');
@@ -63,8 +64,8 @@ contact.addEventListener('click' , () => {
         console.log("contact");
         let intro = document.getElementById('contentPage');
         let footer = document.getElementById('footer');
-        content.removeChild(footer);
         content.removeChild(intro);
+        content.removeChild(footer);
 
         menu.classList.remove('activee');
         home.classList.remove('activee');
