@@ -22,6 +22,13 @@ let loadHome = () =>{
 
     introduction.appendChild(img);
 
+    let lastDiv = document.createElement('div');
+    lastDiv.textContent = "Order online or visit us!";
+
+    lastDiv.setAttribute('class', 'lastDiv');
+
+    introduction.appendChild(lastDiv);
+
     content.appendChild(introduction);
 
     

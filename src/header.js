@@ -20,7 +20,7 @@ let loadHeader = () => {
 
     homeButton.setAttribute('class', 'home');
     homeButton.setAttribute('id', 'home');
-    homeButton.classList.add('active');
+    homeButton.classList.add('activee');
     homeButton.textContent = "Home";
     menuButton.setAttribute('class', 'menu');
     menuButton.setAttribute('id', 'menu');
